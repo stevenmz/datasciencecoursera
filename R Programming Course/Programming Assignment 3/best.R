@@ -1,3 +1,13 @@
+##' A function to find the hospital in a 
+##' particular state that has the lowest mortality rate for a particular outcome
+##' @param state the two-character state abbreviation in all capital letters (i.e. CA for California)
+##' @param outcome one of "heart attack", "heart failure", or "pneumonia"
+##' @return The name of the hospital matching the parameters you specify
+##' @author Steven Magana-Zook (smaganazook@live.com, https://github.com/stevenmz)
+##' @examples 
+##' best("TX", "heart failure")
+##' best("MD", "heart attack")
+##' best("CA", "pneumonia")
 best <- function(state, outcome) {
   ## Read outcome data
   data = read.csv("outcome-of-care-measures.csv", na.strings="Not Available", stringsAsFactors=FALSE )
@@ -12,7 +22,6 @@ best <- function(state, outcome) {
   if((outcome %in% names(outcomes)) == FALSE){
     stop("invalid outcome")
   }
-  
   
   # Shrink data to only have the three columns we care about
   # Code from Al Warren's "[Tips] A few pointers for assignment 3"
