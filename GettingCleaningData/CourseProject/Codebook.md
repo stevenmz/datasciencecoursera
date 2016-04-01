@@ -1,48 +1,86 @@
-1 tBodyAcc-mean()-X
-2 tBodyAcc-mean()-Y
-3 tBodyAcc-mean()-Z
-4 tBodyAcc-std()-X
-5 tBodyAcc-std()-Y
-6 tBodyAcc-std()-Z
-41 tGravityAcc-mean()-X
-42 tGravityAcc-mean()-Y
-43 tGravityAcc-mean()-Z
-44 tGravityAcc-std()-X
-45 tGravityAcc-std()-Y
-46 tGravityAcc-std()-Z
-81 tBodyAccJerk-mean()-X
-82 tBodyAccJerk-mean()-Y
-83 tBodyAccJerk-mean()-Z
-84 tBodyAccJerk-std()-X
-85 tBodyAccJerk-std()-Y
-86 tBodyAccJerk-std()-Z
-121 tBodyGyro-mean()-X
-122 tBodyGyro-mean()-Y
-123 tBodyGyro-mean()-Z
-124 tBodyGyro-std()-X
-125 tBodyGyro-std()-Y
-126 tBodyGyro-std()-Z
-161 tBodyGyroJerk-mean()-X
-162 tBodyGyroJerk-mean()-Y
-163 tBodyGyroJerk-mean()-Z
-164 tBodyGyroJerk-std()-X
-165 tBodyGyroJerk-std()-Y
-166 tBodyGyroJerk-std()-Z
-266 fBodyAcc-mean()-X
-267 fBodyAcc-mean()-Y
-268 fBodyAcc-mean()-Z
-269 fBodyAcc-std()-X
-270 fBodyAcc-std()-Y
-271 fBodyAcc-std()-Z
-345 fBodyAccJerk-mean()-X
-346 fBodyAccJerk-mean()-Y
-347 fBodyAccJerk-mean()-Z
-348 fBodyAccJerk-std()-X
-349 fBodyAccJerk-std()-Y
-350 fBodyAccJerk-std()-Z
-424 fBodyGyro-mean()-X
-425 fBodyGyro-mean()-Y
-426 fBodyGyro-mean()-Z
-427 fBodyGyro-std()-X
-428 fBodyGyro-std()-Y
-429 fBodyGyro-std()-Z
+tBodyAcc-mean()-X
+tBodyAcc-mean()-Y
+tBodyAcc-mean()-Z
+	Mean value of the time-domain linear body acceleration in the XYZ directions for a subject doing a particular activity.
+
+
+tBodyAcc-std()-X
+tBodyAcc-std()-Y
+tBodyAcc-std()-Z
+	Standard Deviation value of the time-domain linear body acceleration in the XYZ directions for a subject doing a particular activity.
+	
+tGravityAcc-mean()-X
+tGravityAcc-mean()-Y
+tGravityAcc-mean()-Z
+	Mean value of the time-domain gravitational acceleration in the XYZ directions for a subject doing a particular activity.
+	
+tGravityAcc-std()-X
+tGravityAcc-std()-Y
+tGravityAcc-std()-Z
+	Standard Deviation value of the time-domain gravitational acceleration in the XYZ directions for a subject doing a particular activity.
+	
+tBodyAccJerk-mean()-X
+tBodyAccJerk-mean()-Y
+tBodyAccJerk-mean()-Z
+	Mean value of the time-domain acceleration jerk in the XYZ directions for a subject doing a particular activity.
+	
+tBodyAccJerk-std()-X
+tBodyAccJerk-std()-Y
+tBodyAccJerk-std()-Z
+	Standard Deviation  value of the time-domain acceleration jerk in the XYZ directions for a subject doing a particular activity.
+	
+tBodyGyro-mean()-X
+tBodyGyro-mean()-Y
+tBodyGyro-mean()-Z
+	Mean value of the time-domain gyro in the XYZ directions for a subject doing a particular activity.
+	
+tBodyGyro-std()-X
+tBodyGyro-std()-Y
+tBodyGyro-std()-Z
+	Standard Deviation value of the time-domain gyro in the XYZ directions for a subject doing a particular activity.
+	
+tBodyGyroJerk-mean()-X
+tBodyGyroJerk-mean()-Y
+tBodyGyroJerk-mean()-Z
+	Mean value of the time-domain gyro jerk in the XYZ directions for a subject doing a particular activity.
+	
+tBodyGyroJerk-std()-X
+tBodyGyroJerk-std()-Y
+tBodyGyroJerk-std()-Z
+	Standard Deviation value of the time-domain gyro jerk in the XYZ directions for a subject doing a particular activity.
+	
+fBodyAcc-mean()-X
+fBodyAcc-mean()-Y
+fBodyAcc-mean()-Z
+	Mean value of the frequency-domain body acceleration in the XYZ directions for a subject doing a particular activity.
+	
+fBodyAcc-std()-X
+fBodyAcc-std()-Y
+fBodyAcc-std()-Z
+	Standard Deviation value of the frequency-domain body acceleration in the XYZ directions for a subject doing a particular activity.
+	
+fBodyAccJerk-mean()-X
+fBodyAccJerk-mean()-Y
+fBodyAccJerk-mean()-Z
+	Mean value of the frequency-domain acceleration jerk in the XYZ directions for a subject doing a particular activity.
+
+fBodyAccJerk-std()-X
+fBodyAccJerk-std()-Y
+fBodyAccJerk-std()-Z
+	Standard Deviation value of the frequency-domain acceleration jerk in the XYZ directions for a subject doing a particular activity.
+
+fBodyGyro-mean()-X
+fBodyGyro-mean()-Y
+fBodyGyro-mean()-Z
+	Mean value of the frequency-domain body gyro in the XYZ directions for a subject doing a particular activity.
+
+fBodyGyro-std()-X
+fBodyGyro-std()-Y
+fBodyGyro-std()-Z
+	Standard Deviation value of the frequency-domain body gyro in the XYZ directions for a subject doing a particular activity.
+
+id
+	The identification number of the subject.
+
+label
+	The activity that was being performed by the subject when the measurements were collected.
