@@ -121,5 +121,5 @@ tidyGroupedData = aggregate(
 ## END OF PART 5 ##
 
 # There is now a tidyData and a tidyGroupedData data frame in the environment
-# Write the tidy data out to a CSV file
+# Write the tidyGroupedData out to a CSV file
 write.csv(tidyGroupedData, "tidyData.csv")
