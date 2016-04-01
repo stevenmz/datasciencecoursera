@@ -1,1 +1,26 @@
-## This is a markdown file
+## Getting and Cleaning Data - Course Project Repository
+
+### Requirements (direct quote from instructions)
+You should create one R script called run_analysis.R that does the following.
+
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+### How the run_analysis script works
+1. Reads in the "UCI HAR Dataset/features.txt" file to get the column headers.
+2. Reads the training dataset here: UCI HAR Dataset/train/X_train.txt
+3. Reads the training labels and adds them as a column from: UCI HAR Dataset/train/y_train.txt
+4. Reads the subject identifiers and adds them as a column from: UCI HAR Dataset/train/subject_train.txt
+5. Repeast above 3 steps to read in test data
+6. Uses rbind to combine the training and test data.
+7. Extracts the rows whose features deal with mean and standard deviation into a new data frame.
+8. Change numeric activity labels to character descriptions of the activity.
+9. Group the data first by subject ID, then by activity label.
+10. Compute the mean of all features for the groups (using aggregate())
+11. Write the tidy data set to disk using write.table.
+
+Along the way, I rm() variables that will no longer be used to save on memory.
