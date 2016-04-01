@@ -23,12 +23,14 @@ You should create one R script called run_analysis.R that does the following.
 2. Reads the training dataset here: UCI HAR Dataset/train/X_train.txt
 3. Reads the training labels and adds them as a column from: UCI HAR Dataset/train/y_train.txt
 4. Reads the subject identifiers and adds them as a column from: UCI HAR Dataset/train/subject_train.txt
-5. Repeast above 3 steps to read in test data
+5. Repeat above 3 steps to read in test data
 6. Uses rbind to combine the training and test data.
-7. Extracts the rows whose features deal with mean and standard deviation into a new data frame.
+7. Extracts all rows and only those columns whose features deal with mean and standard deviation into a new data frame.
 8. Change numeric activity labels to character descriptions of the activity.
 9. Group the data first by subject ID, then by activity label.
 10. Compute the mean of all features for the groups (using aggregate())
 11. Write the tidy data set to disk using write.table.
 
 Along the way, I rm() variables that will no longer be used to save on memory.
+
+The run_analysis.r script is heavily commented for each step performed.
