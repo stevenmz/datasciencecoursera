@@ -3,15 +3,23 @@
 ## Coursera
 
 tBodyAcc-mean()-X
+
 tBodyAcc-mean()-Y
+
 tBodyAcc-mean()-Z
+
 	Mean value of the time-domain linear body acceleration in the XYZ directions for a subject doing a particular activity.
+	
 
 
 tBodyAcc-std()-X
+
 tBodyAcc-std()-Y
+
 tBodyAcc-std()-Z
+
 	Standard Deviation value of the time-domain linear body acceleration in the XYZ directions for a subject doing a particular activity.
+	
 	
 tGravityAcc-mean()-X
 tGravityAcc-mean()-Y
