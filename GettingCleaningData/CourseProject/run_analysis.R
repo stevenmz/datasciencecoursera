@@ -122,4 +122,4 @@ tidyGroupedData = aggregate(
 
 # There is now a tidyData and a tidyGroupedData data frame in the environment
 # Write the tidyGroupedData out to a CSV file
-write.csv(tidyGroupedData, "tidyData.csv")
+write.table(tidyGroupedData, "tidyData.txt", row.names = FALSE)
