@@ -1,3 +1,7 @@
+# Data Dictionary: Getting and Cleaning Data - Course Project
+## Author: Steven Magana-Zook
+## Coursera
+
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
