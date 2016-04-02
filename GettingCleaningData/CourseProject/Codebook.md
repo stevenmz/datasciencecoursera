@@ -1,6 +1,8 @@
 # Data Dictionary: Getting and Cleaning Data - Course Project
 ## Author: Steven Magana-Zook
-#### Derived from the dataset found [here]( http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+### Derived from the dataset found [here]( http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
+#### Variables
 
 tBodyAcc-mean()-X
 
