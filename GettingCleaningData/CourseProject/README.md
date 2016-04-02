@@ -1,5 +1,8 @@
 ## Getting and Cleaning Data - Course Project Repository
 
+### Purpose
+This repository contains code that will clean a Samsung Galaxy S Accelerometer dataset for use in future analysis.
+
 ### Repository Contents
 * UCI HAR Dataset : The data files used by the analysis script
 * Codebook.md: A data dictionary describing the values in the output file
@@ -19,10 +22,10 @@ You should create one R script called run_analysis.R that does the following.
 
 
 ### How the run_analysis script works
-1. Reads in the "UCI HAR Dataset/features.txt" file to get the column headers.
-2. Reads the training dataset here: UCI HAR Dataset/train/X_train.txt
-3. Reads the training labels and adds them as a column from: UCI HAR Dataset/train/y_train.txt
-4. Reads the subject identifiers and adds them as a column from: UCI HAR Dataset/train/subject_train.txt
+1. Reads in the "features.txt" file to get the column headers.
+2. Reads the training dataset here: train/X_train.txt
+3. Reads the training labels and adds them as a column from: train/y_train.txt
+4. Reads the subject identifiers and adds them as a column from: train/subject_train.txt
 5. Repeat above 3 steps to read in test data
 6. Uses rbind to combine the training and test data.
 7. Extracts all rows and only those columns whose features deal with mean and standard deviation into a new data frame.
@@ -31,6 +34,6 @@ You should create one R script called run_analysis.R that does the following.
 10. Compute the mean of all features for the groups (using aggregate())
 11. Write the tidy data set to disk using write.table.
 
-Along the way, I rm() variables that will no longer be used to save on memory.
+Along the way, I rm() variables that will no longer be used in order to save on memory.
 
 The run_analysis.r script is heavily commented for each step performed.
