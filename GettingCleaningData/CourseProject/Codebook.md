@@ -1,6 +1,6 @@
 # Data Dictionary: Getting and Cleaning Data - Course Project
 ## Author: Steven Magana-Zook
-### Derived from the dataset found [here]( http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+#### Derived from the dataset found [here]( http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 tBodyAcc-mean()-X
 
@@ -154,5 +154,5 @@ id
 
 label
 
-	The activity that was being performed by the subject when the measurements were collected.
+	The activity that was being performed by the subject when the measurements were collected. Possible label values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 	

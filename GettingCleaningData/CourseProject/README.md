@@ -31,8 +31,6 @@ You should create one R script called run_analysis.R that does the following.
 10. Compute the mean of all features for the groups (using aggregate())
 11. Write the tidy data set to disk using write.table.
 
-** NOTE: the analysis script expects the "UCI HAR Dataset" directory to be in your working directory **
-
 Along the way, I rm() variables that will no longer be used to save on memory.
 
 The run_analysis.r script is heavily commented for each step performed.
